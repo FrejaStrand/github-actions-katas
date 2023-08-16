@@ -5,7 +5,7 @@ env:
   docker_password: ${{ secrets.GITHUB_TOKEN }}
   GIT_COMMIT: ${{ github.sha }}
 jobs:
-  my-job:
+  Build: 
     name: test 
     runs-on: ubuntu-latest
     container: gradle:6-jdk11
