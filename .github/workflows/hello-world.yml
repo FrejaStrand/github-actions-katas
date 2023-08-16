@@ -20,7 +20,7 @@ jobs:
         uses: actions/upload-artifact@v3
         with: 
           name: code
-          path: app/build/libs/app-0.1-all.jar  
+          path: . 
       - name: Print workflow
         run: echo '${{ toJson(github)}}'  
   Docker-image: 
